@@ -49,7 +49,7 @@ export default function Purchase() {
       {/* Enhanced Navigation with Modern Hamburger Menu */}
       <nav className="fixed top-0 w-full p-6 flex justify-between items-center z-50 bg-white border-b border-gray-100">
         <Link href="/" className="text-2xl font-bold tracking-tighter hover:opacity-80 transition-opacity">
-          SLEEK
+          SEEK
         </Link>
         
         {/* Desktop Navigation */}
@@ -316,7 +316,7 @@ export default function Purchase() {
       <footer className="py-12 px-6 border-t border-gray-200 mt-16">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">SLEEK</h3>
+            <h3 className="text-xl font-bold mb-4">SEEK</h3>
             <p className="text-gray-600">Futuristic fashion for modern living.</p>
           </div>
           <div>
@@ -363,7 +363,7 @@ export default function Purchase() {
           </div>
         </div>
         <div className="max-w-6xl mx-auto mt-12 pt-6 border-t border-gray-200 text-sm text-gray-500">
-          <p>© {new Date().getFullYear()} SLEEK. All rights reserved. Shivang Patel II</p>
+          <p>© {new Date().getFullYear()} SEEK. All rights reserved. Shivang Patel II</p>
         </div>
       </footer>
     </div>

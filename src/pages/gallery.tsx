@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 const images = [
-  { id: 1, src: '/gallery1.jpg', alt: 'Minimalist design 1', category: 'furniture' },
+  { id: 1, src: 'https://th.bing.com/th/id/OIP.kkl38K4iesyI5R-fDWIBVwHaLH?w=186&h=279&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3', alt: 'Minimalist design 1', category: 'furniture' },
   { id: 2, src: '/gallery2.jpg', alt: 'Minimalist design 2', category: 'lighting' },
   { id: 3, src: '/gallery3.jpg', alt: 'Minimalist design 3', category: 'accessories' },
   { id: 4, src: '/gallery4.jpg', alt: 'Minimalist design 4', category: 'furniture' },
@@ -113,13 +113,13 @@ export default function Gallery() {
             onClick={() => setSelectedCategory('furniture')}
             className={`px-3 py-1 sm:px-4 sm:py-2 text-xs sm:text-sm border-b ${selectedCategory === 'furniture' ? 'border-black font-medium' : 'border-transparent'}`}
           >
-            FURNITURE
+            BEST WORKS
           </button>
           <button 
             onClick={() => setSelectedCategory('lighting')}
             className={`px-3 py-1 sm:px-4 sm:py-2 text-xs sm:text-sm border-b ${selectedCategory === 'lighting' ? 'border-black font-medium' : 'border-transparent'}`}
           >
-            LIGHTING
+            WEARABLES
           </button>
           <button 
             onClick={() => setSelectedCategory('accessories')}

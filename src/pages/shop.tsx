@@ -197,7 +197,7 @@ export default function Shop() {
       <footer className="py-12 px-6 border-t border-gray-200 mt-16">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">SLEEK</h3>
+            <h3 className="text-xl font-bold mb-4">SEEK</h3>
             <p className="text-gray-600">Futuristic fashion for modern living.</p>
           </div>
           <div>
@@ -224,7 +224,7 @@ export default function Shop() {
           </div>
         </div>
         <div className="max-w-6xl mx-auto mt-12 pt-6 border-t border-gray-200 text-sm text-gray-500">
-          <p>© {new Date().getFullYear()} SLEEK. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} SEEK. All rights reserved.</p>
         </div>
       </footer>
     </div>
