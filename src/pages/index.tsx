@@ -205,7 +205,7 @@ export default function Home() {
               <Link href="/shop" key={item} className="group">
                 <div className="aspect-[3/4] bg-gray-50 overflow-hidden relative">
                   <Image
-                    src={`/product-${item}.jpg`}
+                    src={`/product-${item}.jpeg`}
                     alt={`Product ${item}`}
                     width={600}
                     height={800}
@@ -216,8 +216,8 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mt-4 text-center">
-                  <h3 className="font-medium text-gray-900">MINIMAL {item === 1 ? 'SHIRT' : item === 2 ? 'PANTS' : 'JACKET'}</h3>
-                  <p className="text-gray-600 text-sm">${item === 1 ? '120' : item === 2 ? '150' : '220'}.00</p>
+                  <h3 className="font-medium text-gray-900">MINIMAL {item === 1 ? 'SHIRT' : item === 2 ? 'SHIRTS' : 'SILVER SURFER SHIRT'}</h3>
+                  <p className="text-gray-600 text-sm">${item === 1 ? '20' : item === 2 ? '20' : '35'}.00</p>
                 </div>
               </Link>
             ))}
